@@ -1,3 +1,3 @@
 #!/bin/bash
-touch "\*\\'"DevOps"\'\\*$\?\*\*\*\*\*:)" && echo -e 'Hello DevOps$\n' 
+echo -e "Hello DevOps" >> "\*\\\\'\"DevOps\"\'\\\\*$\?\*\*\*\*\*:)"
 
