@@ -2,4 +2,5 @@ baseurl = "https://dhernandezl.github.io/"
 languageCode = "en-us"
 title = "Awesome Inc."
 theme = "ananke"
+publishdir = "dist/"
 
