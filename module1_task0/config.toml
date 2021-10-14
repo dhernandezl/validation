@@ -1,5 +1,5 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://dhernandezl.github.io/"
 languageCode = "en-us"
 title = "Awesome Inc."
-theme = ["themes/ananke"]
+theme = "ananke"
 
