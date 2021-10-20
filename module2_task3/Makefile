@@ -9,7 +9,7 @@ run: ## Run the application in background by executing the binary awesome-api, a
 	./awesome-api >./awesome.log 2>&1 &
 
 stop: ## Stop the application with the command kill XXXXX where XXXXX is the Process ID of the application. For instance: kill "$(pgrep awesome-api)".	killall awesome-api
-	kill  $$(pgrep -f "awesome-api") > /dev/null 2>&1 &  
+	kill  $$(pgrep -f "awesome-api")
 
 .PHONY : clean
 clean: ## Delete the binary awesome-api and the log file awesome-api.log
