@@ -19,7 +19,7 @@ clean: ## Delete the binary awesome-api and the log file awesome-api.log
 unit-tests: ## Unit testing with code coverage
 	go test -v -short -coverprofile=coverage-units.out
 
-integrations-tests: ## executes the golang integrations tests
+integration-tests: ## executes the golang integrations tests
 	go test -v -tags=integration -coverprofile=coverage-integrations.out
 
 test: ## executes unit-tests and integrations-tests
