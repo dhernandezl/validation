@@ -23,7 +23,7 @@ integration-tests: ## executes the golang integrations tests
 	go test -v -tags=integration -coverprofile=coverage-integrations.out
 
 test: ## executes unit-tests and integrations-tests
-	make unit-tests && make integrations-tests
+	make unit-tests && make integration-tests
 
 help: ## gives a descriptios of every command
 	grep '##' ./Makefile  | sed 's/ ##/ /' |  head -n -1
