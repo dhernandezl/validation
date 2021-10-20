@@ -19,7 +19,7 @@ clean: ## Delete the binary awesome-api and the log file awesome-api.log
 test: ## test the app with command curl http://localhost:9999 sending the message "404 Page Not Found" and curl http://localhost:9999/health sending the message "ALIVE"
 	curl http://localhost:9999  http://localhost:9999/health  
 
-unit-test: ## Unit testing with code coverage
+unit-tests: ## Unit testing with code coverage
 	go test -v -short -coverprofile=coverage-units.out
 
 help: ## gives a descriptios of every command
