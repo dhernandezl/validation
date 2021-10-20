@@ -28,5 +28,5 @@ Python 3 with pip module
 - clean ``` Delete the binary awesome-api and log ```
 - test ```Test the application Unit Test - Integrations Test```
 - unit-tests ``` Unit testing with code coverage  ```
-- integration-test ``` Integrations Test  ```
+- integration-tests ``` Integrations Test  ```
 - help ``` command make help will gives a description of every command. ```
