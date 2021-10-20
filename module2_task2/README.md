@@ -27,5 +27,5 @@ Python 3 with pip module
 - stop ``` Stop the application ```
 - clean ``` Delete the binary awesome-api and log ```
 - test ```Test the application in browser```
-- unit-test ```	Unit testing with code coverage  ```
+- unit-tests ```	Unit testing with code coverage  ```
 - help ``` command make help will gives a description of every command. ```
