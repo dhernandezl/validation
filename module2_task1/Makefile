@@ -2,6 +2,7 @@ lint: ## to execute a static analysis to lint this code.
 	golangci-lint run
 
 build: ## compiles the awesome-api application
+	make lint
 	go build
 
 run: ## Run the application in background by executing the binary awesome-api, and write logs into a file named awesome.log with the command ./awesome-api >./awesome.log 2>&1 &.
