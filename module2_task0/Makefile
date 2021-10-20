@@ -5,12 +5,12 @@ run:  ##Run the application in background
 	./awesome-api >./awesome.log 2>&1 &
 
 stop:	##Stop the application
-	kill "$(pgrep awesome-api)"
+	kill $(pgrep -f "awesome-api") > /dev/null 2>&1 &
 
 .PHONY: clean
 clean:  ##Delete the binary and the log
-	rm -r awesome-api
-	rm awsome-api.log
+	make stop > /dev/null 2>&1 &
+	rm -rf ./awesome-api ./awsome-api.log > /dev/null 2>&1 &
 
 test: ##Test the application
 	curl http://localhost:9999
