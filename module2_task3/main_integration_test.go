@@ -32,18 +32,21 @@ func Test_server(t *testing.T) {
       responseCode: 200,
       body:         "Hello Holberton!",
     },
+    //setupRouter
     {
       name:         "Health page",
       URI:          "/health",
       responseCode: 200,
       body:         "ALIVE",
     },
+    //HelloHandler
     {
       name:         "Names page",
       URI: 	    "/hello?name=Carlos&name=Ethan",
       responseCode: 200,
       body:         "Hello Ethan!",
     },
+    //HealthCheckHandler
     {
       name:         "Blank page",
       URI: 	    "/hello",
