@@ -49,7 +49,9 @@ Run the application in background by executing the binary
 clean dist directory
 ```
 - stop 
-``` Stop the application ```
+``` 
+Stop the application 
+```
 - post
 ```
 acepts 2 parameters POST_NAME and POST_TITLE, the first one
@@ -67,11 +69,17 @@ will be created with command 'make POST_NAME POST_TITLE post'
 "Validate" should validate the file ./dist/index.html by using the command line Holberton's W3C Validator, but should not fail if the file is not valid: you expect it to be a non-blocking quality indicator.
 ```
 - test 
-```Test the application Unit Test - Integrations Test```
+```
+Test the application Unit Test - Integrations Test
+```
 - unit-tests 
-``` Unit testing with code coverage  ```
+``` 
+Unit testing with code coverage  
+```
 - integration-tests 
-``` Integrations Test  ```
+``` 
+Integrations Test  
+```
 - help
 ```
 command make help will gives a description of every command.	
