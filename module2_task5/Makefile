@@ -8,7 +8,7 @@ go-build: ## compiles the awesome-api application
 hugo-build: ## Construye una página estática con hugo y la guarda en dist
 	hugo -D > /dev/null 2>&1
 
-build: # Construye una página estática con hugo y la API Go
+build: ## Construye una página estática con hugo y la API Go
 	make hugo-build
 	make go-build
 
