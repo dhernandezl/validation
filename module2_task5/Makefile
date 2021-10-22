@@ -8,6 +8,10 @@ go-build: ## compiles the awesome-api application
 hugo-build: ## Construye una página estática con hugo y la guarda en dist
 	hugo -D > /dev/null 2>&1
 
+build: # Construye una página estática con hugo y la API Go
+	make hugo-build
+	make go-build
+
 run: ## Run the application in background by executing the binary awesome-api, and write logs into a file named awesome.log with the command ./awesome-api >./awesome.log 2>&1 &.
 	./awesome-api >./awesome.log 2>&1 &
 
